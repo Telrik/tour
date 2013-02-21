@@ -1,0 +1,6 @@
+[submodule "yii"]
+	path = yii
+	url = git://github.com/yiisoft/yii.git
+[submodule "protected/extensions/bootstrap"]
+	path = protected/extensions/bootstrap
+	url = git://github.com/clevertech/YiiBooster.git

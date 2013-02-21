@@ -1,0 +1,103 @@
+2013/02/21 15:51:42 [error] [exception.CException] exception 'CException' with message 'The minScript controller with ID "min" needs to be defined in CWebApplication::$controllerMap.' in C:\inetpub\tour\protected\extensions\minscript\components\ExtMinScript.php:97
+Stack trace:
+#0 C:\inetpub\tour\yii\framework\base\CModule.php(387): ExtMinScript->init()
+#1 C:\inetpub\tour\yii\framework\web\CWebApplication.php(230): CModule->getComponent('clientScript')
+#2 C:\inetpub\tour\protected\extensions\bootstrap\components\Bootstrap.php(163): CWebApplication->getClientScript()
+#3 C:\inetpub\tour\protected\extensions\bootstrap\components\Bootstrap.php(124): Bootstrap->registerAssetCss('bootstrap.css')
+#4 C:\inetpub\tour\protected\extensions\bootstrap\components\Bootstrap.php(102): Bootstrap->registerCoreCss()
+#5 C:\inetpub\tour\yii\framework\base\CModule.php(387): Bootstrap->init()
+#6 C:\inetpub\tour\yii\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#7 C:\inetpub\tour\yii\framework\base\CApplication.php(152): CModule->preloadComponents()
+#8 C:\inetpub\tour\yii\framework\YiiBase.php(125): CApplication->__construct('C:\inetpub\tour...')
+#9 C:\inetpub\tour\yii\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\inetpub\tour...')
+#10 C:\inetpub\tour\index.php(13): YiiBase::createWebApplication('C:\inetpub\tour...')
+#11 {main}
+REQUEST_URI=/
+---
+2013/02/21 17:25:13 [error] [exception.CException] exception 'CException' with message 'Property "TbNavbar.encodeLabel" is not defined.' in C:\inetpub\tour\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\tour\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('encodeLabel', false)
+#1 C:\inetpub\tour\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\inetpub\tour\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\inetpub\tour\protected\views\layouts\main.php(168): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#5 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#6 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#7 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\inetpub\tour\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\inetpub\tour\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\inetpub\tour\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\inetpub\tour\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#13 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#14 C:\inetpub\tour\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#15 C:\inetpub\tour\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\inetpub\tour\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\inetpub\tour\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\inetpub\tour\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\inetpub\tour\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\inetpub\tour\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\inetpub\tour\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\inetpub\tour\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\inetpub\tour\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+---
+2013/02/21 17:27:20 [error] [exception.CException] exception 'CException' with message 'Property "TbNavbar.encodeLabel" is not defined.' in C:\inetpub\tour\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\tour\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('encodeLabel', false)
+#1 C:\inetpub\tour\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\inetpub\tour\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\inetpub\tour\protected\views\layouts\main.php(169): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#5 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#6 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#7 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\inetpub\tour\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\inetpub\tour\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\inetpub\tour\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\inetpub\tour\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#13 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#14 C:\inetpub\tour\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#15 C:\inetpub\tour\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\inetpub\tour\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\inetpub\tour\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\inetpub\tour\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\inetpub\tour\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\inetpub\tour\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\inetpub\tour\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\inetpub\tour\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\inetpub\tour\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+---
+2013/02/21 17:27:21 [error] [exception.CException] exception 'CException' with message 'Property "TbNavbar.encodeLabel" is not defined.' in C:\inetpub\tour\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\tour\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('encodeLabel', false)
+#1 C:\inetpub\tour\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\inetpub\tour\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\inetpub\tour\protected\views\layouts\main.php(169): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#5 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#6 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#7 C:\inetpub\tour\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\inetpub\tour\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\inetpub\tour\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\inetpub\tour\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\inetpub\tour\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\inetpub\tour\yii\framework\web\CBaseController.php(126): require('C:\inetpub\tour...')
+#13 C:\inetpub\tour\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\inetpub\tour...', Array, true)
+#14 C:\inetpub\tour\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\inetpub\tour...', Array, true)
+#15 C:\inetpub\tour\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\inetpub\tour\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\inetpub\tour\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\inetpub\tour\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\inetpub\tour\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\inetpub\tour\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\inetpub\tour\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#22 C:\inetpub\tour\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\inetpub\tour\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/
+---
